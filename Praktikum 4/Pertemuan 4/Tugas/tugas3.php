@@ -3,8 +3,8 @@ $a=$_POST['nama'];
 $b=$_POST['alamat'];
 $c=$_POST['jk'];
 $d=$_POST['email'];
-$e=$_POST['var_a'];
-$f=$_POST['var_b'];
+$e=$_POST['angka1'];
+$f=$_POST['angka2'];
 $h=$_POST['jawab'];
 $g= $e * $f;
 
@@ -15,16 +15,16 @@ if ($h == $g) {
 <!DOCTYPE html>
 <html>
 <head>
-	<title>FORM RESULT INPUT DATA</title>
+	<title>RESULT FORM</title>
 </head>
 <body>
 	<table border="1">
 		<tr>
 			<thead>
 				<th>Nama</th>
-				<th>alamat</th>
+				<th>Alamat</th>
 				<th>Email</th>
-				<th>jenis kelamin</th>
+				<th>Jenis Kelamin</th>
 				<th>Jawaban</th>
 			</thead>
 		</tr>
